@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the companion paper."
+title: "CaseForge (public-llmCaseGen-CIKM2026)"
+abstract: >
+  Faculty-facing browser tool that drafts personalised professional case
+  studies via a four-stage RAG+LLM pipeline (Input, Retrieval, Generation,
+  Faculty-in-the-loop editing) with discipline packs for Finance, Marketing,
+  and Social Work.
+authors:
+  - family-names: Lim
+    given-names: Kwan Hui
+    affiliation: "Singapore University of Social Sciences"
+  - family-names: Lim
+    given-names: Lyndon
+    affiliation: "Singapore University of Social Sciences"
+  - family-names: Ng
+    given-names: Vincent
+    affiliation: "Singapore University of Social Sciences"
+  - family-names: Lee
+    given-names: Marcus
+    affiliation: "Singapore University of Social Sciences"
+  - family-names: Ding
+    given-names: Ding
+    affiliation: "Singapore University of Social Sciences"
+type: software
+license: MIT
+repository-code: "https://github.com/kwanhui/public-llmCaseGen-CIKM2026"
+preferred-citation:
+  type: conference-paper
+  title: "CaseForge: A Retrieval-Augmented LLM Authoring Tool for Personalised Professional Case Studies"
+  authors:
+    - family-names: Lim
+      given-names: Kwan Hui
+    - family-names: Lim
+      given-names: Lyndon
+    - family-names: Ng
+      given-names: Vincent
+    - family-names: Lee
+      given-names: Marcus
+    - family-names: Ding
+      given-names: Ding
+  collection-title: "To be confirmed (under review)"
+  year: 2026
+  notes: "Submitted to the CIKM 2026 Demo Track; venue to be confirmed."

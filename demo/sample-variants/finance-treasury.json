@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "scenario": "You are a treasury associate at Horizon Technologies, a leading technology firm based in Canada specializing in smart home devices. Over the past five years, Horizon Technologies has seen consistent growth, currently boasting total assets of CAD 500 million and a net income of CAD 50 million. The company maintains a conservative capital structure, with a debt-to-equity ratio of 0.5 and an interest coverage ratio of 8, reflecting a robust capacity to manage its financial obligations.\n\nAs part of your responsibilities, you are tasked with valuing Horizon Technologies using the Dividend Discount Model (DDM). However, the CFO is apprehensive about future earnings growth and the applicable cost of equity, particularly in light of increasing market competition and recent economic shifts.\n\nTo facilitate this valuation, you gather the following data:\n- Historical dividend growth rate: 6%  \n- Current dividend per share: CAD 2.00  \n- Expected long-term growth rate: between 4% and 6%  \n- Estimated cost of equity: between 9% and 11%  \n- Comparable technology firms have a P/E ratio range of 15x to 20x.\n\nThe CFO has requested a comprehensive valuation of the company utilizing the DDM, incorporating various scenarios for growth rates and the cost of equity. She emphasizes the critical need to understand how sensitive the valuation is to variations in these inputs, especially as Horizon Technologies seeks to attract new investors and sustain shareholder confidence.\n\nYou realize that a sensitivity analysis on both the growth rate and cost of equity will be essential in assessing the implications for the company’s valuation. Your specific question is: **How should you approach the valuation using the DDM under the scenario of varying growth rates and costs of equity, and what implications arise from your findings?**",
+  "discussionQuestions": [
+    "Using the DDM, what is the intrinsic value of Horizon Technologies' stock under a 4% growth rate and an 11% cost of equity? Show your calculations.",
+    "How does the intrinsic value change if the growth rate is adjusted to 6% with the cost of equity remaining at 11%? What does this sensitivity analysis reveal about the growth assumptions?",
+    "If the cost of equity is lowered to 9% while maintaining a 6% growth rate, what impact does this have on the intrinsic value? How should the CFO interpret these results?",
+    "Which assumptions regarding growth rates and the cost of equity are most critical to your valuation? How might changes in market competition affect these assumptions?",
+    "Based on your analysis, what recommendations would you make regarding Horizon Technologies' dividend policy and growth strategy?",
+    "What additional information would you seek to enhance the robustness of your valuation and how would it address uncertainties about your key assumptions?"
+  ],
+  "modelAnswers": [
+    "Under a 4% growth rate and an 11% cost of equity, the value of the stock using DDM can be calculated as follows: V = D / (r - g) = 2.00 / (0.11 - 0.04) = 28.57. Thus, the intrinsic value of the stock is approximately CAD 28.57 per share.",
+    "If the growth rate is adjusted to 6% with the cost of equity remaining at 11%, the calculation becomes: V = 2.00 / (0.11 - 0.06) = 40.00. The increase in intrinsic value from CAD 28.57 to CAD 40.00 emphasizes that the valuation is highly sensitive to the growth rate assumption, indicating that growth is a primary driver of value.",
+    "Lowering the cost of equity to 9% while maintaining a 6% growth rate results in: V = 2.00 / (0.09 - 0.06) = 66.67. This significant increase suggests that a lower perceived risk dramatically enhances the intrinsic value, indicating to the CFO that strategies to improve the company’s risk profile could be beneficial.",
+    "The most critical assumptions are the growth rates and the cost of equity. A shift in market competition, such as new entrants or innovation from competitors, could pressure both the growth rate and the cost of equity, necessitating regular reassessment of these inputs.",
+    "Based on the analysis, I would recommend that Horizon Technologies consider strategically increasing its dividend while investing in innovation to bolster growth. This dual approach could attract new investors while maintaining current shareholder satisfaction, ensuring long-term stability and confidence.",
+    "To enhance the robustness of the valuation, I would seek information on technological trends, competitor strategies, and economic forecasts. Understanding these factors would provide insights into potential changes in growth rates and the cost of equity, allowing for a more informed valuation approach."
+  ],
+  "rubric": "Numerical accuracy (30%): calculations are executed correctly and adhere to DDM principles. Depth of reasoning (30%): connections are drawn between valuation outcomes and underlying assumptions. Treatment of assumptions (20%): critical assumptions are explicitly identified and explored. Recommendation quality (20%): actionable insights are derived based on the analysis.",
+  "glossary": [
+    {
+      "term": "Dividend Discount Model (DDM)",
+      "definition": "A valuation method that estimates the value of a company based on the present value of its expected future dividends."
+    },
+    {
+      "term": "Cost of equity",
+      "definition": "The return a company requires to decide if an investment meets capital return requirements, often reflected in the rate of return expected by shareholders."
+    },
+    {
+      "term": "Sensitivity analysis",
+      "definition": "A technique used to determine how different values of an independent variable affect a particular dependent variable under a given set of assumptions."
+    },
+    {
+      "term": "Terminal value",
+      "definition": "The estimated value of a company at the end of a projected period, often calculated to find the present value of all future cash flows beyond the projection period."
+    },
+    {
+      "term": "Intrinsic value",
+      "definition": "The actual value of a company or an asset based on an analysis of its fundamental characteristics, rather than the current market price."
+    }
+  ]
+}

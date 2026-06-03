@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "scenario": "You are a junior analyst at Riverstone Bank, a regional retail bank situated in the Southeast United States. Over the past five years, the bank has seen steady growth, with total assets amounting to $2.5 billion and a net income of $80 million. Riverstone Bank has maintained a conservative capital structure, reflected in its Tier 1 capital ratio of 11% and a debt-to-equity ratio of 1:2, demonstrating its focus on maintaining a robust financial position. The bank has consistently issued an annual dividend of $1.20 per share, which has increased by 4% annually over the last three years.\n\nAs part of your responsibilities, you are tasked with valuing Riverstone Bank using the Dividend Discount Model (DDM). The CFO is concerned about the bank's future earnings growth and cost of equity due to intensifying competition and economic uncertainty in the region.\n\nTo aid your valuation, you compile the following data:\n- Historical dividend growth rate: 4%  \n- Current dividend per share: $1.20  \n- Expected long-term growth rate: between 2% and 4%  \n- Estimated cost of equity: between 7% and 9%  \n- Comparable regional banks have a P/E ratio range of 10x to 13x.\n\nThe CFO has requested that you provide a valuation of the bank using the DDM, factoring in various scenarios for growth rates and costs of equity. She emphasizes the significance of grasping how sensitive the valuation is to variations in these inputs, especially since the bank's strategic plans rely on attracting new investors and preserving shareholder confidence.\n\nYou realize that performing a sensitivity analysis on both the growth rate and the cost of equity will be crucial in assessing the implications for the bank's valuation. Your specific question is: **How should you approach the valuation using the DDM under the scenario of varying growth rates and costs of equity, and what are the implications of your findings?**",
+  "discussionQuestions": [
+    "Using the DDM, what is the intrinsic value of Riverstone Bank's stock under a 2% growth rate and a 9% cost of equity? Show your calculations.",
+    "How does the intrinsic value change if the growth rate is adjusted to 4% with the cost of equity remaining at 9%? What does this sensitivity analysis reveal about the growth assumptions?",
+    "If the cost of equity is lowered to 7% while maintaining a 4% growth rate, what impact does this have on the intrinsic value? How should the CFO interpret these results?",
+    "Which assumptions regarding growth rates and the cost of equity are most critical to your valuation? How might changes in the competitive landscape affect these assumptions?",
+    "Based on your analysis, what recommendations would you make regarding Riverstone Bank's dividend policy and growth strategy?",
+    "What additional information would you seek to enhance the robustness of your valuation, and how would it address uncertainties about your key assumptions?"
+  ],
+  "modelAnswers": [
+    "Under a 2% growth rate and a 9% cost of equity, the value of the stock using DDM can be calculated as follows: V = D / (r - g) = 1.20 / (0.09 - 0.02) = 17.14. Thus, the intrinsic value of the stock is approximately $17.14 per share.",
+    "If the growth rate is adjusted to 4% with the cost of equity still at 9%, the calculation becomes: V = 1.20 / (0.09 - 0.04) = 24.00. The increase in intrinsic value from $17.14 to $24.00 illustrates that the valuation is sensitive to the growth rate assumption, emphasizing that growth is a key driver of value.",
+    "Lowering the cost of equity to 7% while maintaining a 4% growth rate results in: V = 1.20 / (0.07 - 0.04) = 40.00. This significant increase suggests that a lower perceived risk can substantially enhance the intrinsic value, which should encourage the CFO to consider strategies that improve the bank’s risk profile.",
+    "The most critical assumptions are the growth rates and the cost of equity. Changes in the competitive landscape, like new entrants or shifts in regulatory policies, could impact both the growth rate and the cost of equity, prompting a regular reassessment of these inputs.",
+    "Based on the analysis, I would recommend that Riverstone Bank consider maintaining its current dividend while focusing on strategies to enhance growth, such as investing in technology to improve customer service or expanding into underserved markets. Additionally, closely monitoring the cost of equity will be essential to maintain a favorable valuation.",
+    "To enhance the robustness of the valuation, I would seek information on market trends, economic forecasts, and competitor performance. This information would provide insights into potential changes in growth rates and the cost of equity, facilitating a more informed valuation approach."
+  ],
+  "rubric": "Numerical accuracy (30%): calculations are correctly executed and align with the DDM principles. Depth of reasoning (30%): connections are drawn between valuation outcomes and underlying assumptions. Treatment of assumptions (20%): critical assumptions are clearly identified and explored. Recommendation quality (20%): actionable insights are provided based on the analysis.",
+  "glossary": [
+    {
+      "term": "Dividend Discount Model (DDM)",
+      "definition": "A valuation method that estimates the value of a company's stock by predicting future dividends and discounting them back to their present value."
+    },
+    {
+      "term": "Cost of Equity",
+      "definition": "The return required by investors for holding a company's equity, reflecting the risk associated with investing in that equity."
+    },
+    {
+      "term": "Terminal Value",
+      "definition": "The estimated value of a business at the end of a specific forecast period, often calculated using a perpetuity growth model or an exit multiple."
+    },
+    {
+      "term": "Sensitivity Analysis",
+      "definition": "A technique used to analyze how different values of an independent variable affect a particular dependent variable under a given set of assumptions."
+    }
+  ]
+}

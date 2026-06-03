@@ -1,0 +1,22 @@
+{
+  "method": "lexical: a retrieved passage counts as reflected if any of its corpus tags appears in the generated case text",
+  "perCase": [
+    {
+      "discipline": "finance",
+      "used": 3,
+      "total": 5
+    },
+    {
+      "discipline": "marketing",
+      "used": 5,
+      "total": 5
+    },
+    {
+      "discipline": "social_work",
+      "used": 3,
+      "total": 5
+    }
+  ],
+  "totalUsed": 11,
+  "totalRetrieved": 15
+}
